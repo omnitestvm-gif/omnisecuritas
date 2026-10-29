@@ -1,0 +1,35 @@
+/* Utilities only: preserve the established website styles without a global reset. */
+@layer theme, utilities;
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/utilities.css' layer(utilities);
+@import 'tw-animate-css';
+@source '../../components';
+@source '../islands';
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --color-background: #f7f7f2;
+  --color-foreground: #14212b;
+  --color-primary: #946322;
+  --color-border: #dee1df;
+  --animate-marquee: marquee var(--duration) infinite linear;
+  --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+@keyframes marquee-vertical {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(calc(-100% - var(--gap)));
+  }
+}

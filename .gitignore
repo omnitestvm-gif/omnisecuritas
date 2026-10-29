@@ -1,0 +1,28 @@
+# Local dependencies and deployment state
+node_modules/
+.vercel/
+.openai/
+.sites-runtime/
+
+# Retained original Sites checkout (has its own Git history)
+sites/
+
+# Local settings, secrets, and generated output
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.log
+*.tar.gz
+*.zip
+coverage/
+test-results/
+playwright-report/
+*-preview.png
+*-hero.png
+qa-results.json
+
+# Local component build and visual QA
+.build/
+qa/

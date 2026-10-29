@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{{title}}</title>
+    <meta name="description" content="{{description}}" />
+    <meta name="theme-color" content="#101b25" />
+    <meta property="og:title" content="{{title}}" />
+    <meta property="og:description" content="{{description}}" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/pages.css" />
+    <link rel="stylesheet" href="css/premium.css" />
+    {{componentStyles}}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    {{header}}
+    <main id="main">{{content}}</main>
+    {{footer}} {{dialog}}
+    <script src="vendor/gsap/gsap.min.js" defer></script>
+    <script src="vendor/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="js/app.js" defer></script>
+    {{pageScripts}}
+  </body>
+</html>

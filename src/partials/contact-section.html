@@ -1,0 +1,79 @@
+<div class="contact-orbits" aria-hidden="true"></div>
+<div class="contact-copy reveal">
+  <div class="eyebrow light"><span class="status-dot"></span> YOUR INQUIRY</div>
+  <h2>The right expertise.<br /><span>A practical next step.</span></h2>
+  <p>Explore managed cybersecurity or a focused professional services engagement with our team.</p>
+  <a class="email-link" href="mailto:sales@omnisecuritas.com.ph"
+    >sales@omnisecuritas.com.ph <span>↗</span></a
+  >
+  <div class="contact-location">
+    BASED IN THE PHILIPPINES<br /><span>Las Piñas City, Metro Manila</span>
+  </div>
+</div>
+<form id="contact-form" class="contact-form reveal" method="post" action="/api/contact">
+  <div class="contact-honeypot" aria-hidden="true">
+    <label
+      >Leave this field empty<input name="website" type="text" tabindex="-1" autocomplete="off"
+    /></label>
+  </div>
+  <h3>Start a conversation.</h3>
+  <p>Share your priorities. Our team will help you plan the next step.</p>
+  <div class="form-row">
+    <label
+      >Your name<input
+        name="name"
+        autocomplete="name"
+        placeholder="Juan Dela Cruz"
+        required
+        maxlength="100" /></label
+    ><label
+      >Work email<input
+        name="email"
+        type="email"
+        autocomplete="email"
+        placeholder="you@company.com"
+        required
+        maxlength="180"
+    /></label>
+  </div>
+  <label
+    >Company<input
+      name="company"
+      autocomplete="organization"
+      placeholder="Your organization"
+      required
+      maxlength="150" /></label
+  ><label
+    >How can we help?<select name="interest">
+      <option>Managed Detection & Response</option>
+      <option>Endpoint Security</option>
+      <option>Threat Hunting</option>
+      <option>Security Assessment</option>
+      <option>Incident Readiness</option>
+      <option>Awareness Training</option>
+      <option>Penetration Testing</option>
+      <option>Incident Response Services</option>
+      <option>Forensic Investigation</option>
+      <option>Partnerships</option>
+    </select></label
+  ><label
+    >Tell us a little more <span>(optional)</span
+    ><textarea
+      name="message"
+      rows="2"
+      placeholder="Your priorities, challenges, or questions…"
+      maxlength="2000"
+    ></textarea></label
+  ><button class="button gold" type="submit">Send inquiry <span>↗</span></button>
+  <p class="form-note">
+    Your details are sent securely to our sales team to respond to your inquiry. Please do not
+    include passwords or sensitive incident evidence.
+  </p>
+  <div class="form-result" id="form-result" hidden aria-live="polite"></div>
+  <noscript
+    ><p>
+      Please enable JavaScript to submit this form, or email
+      <a href="mailto:sales@omnisecuritas.com.ph">sales@omnisecuritas.com.ph</a>.
+    </p></noscript
+  >
+</form>

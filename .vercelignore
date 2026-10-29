@@ -1,0 +1,14 @@
+.git/
+.github/
+sites/
+docs/
+node_modules/
+.env*
+*.zip
+*.tar.gz
+*-preview.png
+*-hero.png
+qa-results.json
+
+.build/
+qa/

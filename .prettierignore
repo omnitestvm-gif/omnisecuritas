@@ -1,0 +1,13 @@
+node_modules/
+sites/
+public/vendor/
+public/assets/
+package-lock.json
+
+# HTML output is generated from src/ templates
+public/*.html
+
+# Generated component assets
+public/css/components.css
+public/js/homepage-islands.js
+public/js/homepage-islands.js.LEGAL.txt

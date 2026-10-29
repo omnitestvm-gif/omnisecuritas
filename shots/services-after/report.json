@@ -1,0 +1,164 @@
+{
+  "desktop": {
+    "overflow": false,
+    "headline": "Know your risks.\nStrengthen your next move.",
+    "hero": {
+      "x": 0,
+      "y": 96,
+      "width": 1440,
+      "height": 864,
+      "top": 96,
+      "right": 1440,
+      "bottom": 960,
+      "left": 0
+    },
+    "panel": {
+      "x": 160,
+      "y": 615.4375,
+      "width": 1120,
+      "height": 333.1875,
+      "top": 615.4375,
+      "right": 1280,
+      "bottom": 948.625,
+      "left": 160
+    },
+    "videos": [
+      {
+        "ready": 4,
+        "paused": false,
+        "src": "assets/media/services-horizon.mp4",
+        "time": 2.3755
+      },
+      {
+        "ready": 4,
+        "paused": true,
+        "src": "assets/media/services-horizon.mp4",
+        "time": 0
+      }
+    ],
+    "fonts": [
+      "DM Sans",
+      "DM Sans",
+      "DM Sans",
+      "DM Sans",
+      "Manrope",
+      "Manrope",
+      "Manrope",
+      "Manrope"
+    ],
+    "links": true,
+    "errors": [],
+    "loop": [
+      {
+        "paused": false,
+        "time": 2.8031,
+        "opacity": "1"
+      },
+      {
+        "paused": true,
+        "time": 0,
+        "opacity": "0"
+      }
+    ]
+  },
+  "mobile": {
+    "overflow": false,
+    "headline": "Know your risks.\nStrengthen your next move.",
+    "hero": {
+      "x": 0,
+      "y": 78,
+      "width": 390,
+      "height": 1249.359375,
+      "top": 78,
+      "right": 390,
+      "bottom": 1327.359375,
+      "left": 0
+    },
+    "panel": {
+      "x": 20,
+      "y": 605.03125,
+      "width": 350,
+      "height": 722.328125,
+      "top": 605.03125,
+      "right": 370,
+      "bottom": 1327.359375,
+      "left": 20
+    },
+    "videos": [
+      {
+        "ready": 0,
+        "paused": true,
+        "src": null,
+        "time": 0
+      },
+      {
+        "ready": 0,
+        "paused": true,
+        "src": null,
+        "time": 0
+      }
+    ],
+    "fonts": [
+      "DM Sans",
+      "DM Sans",
+      "DM Sans",
+      "DM Sans",
+      "Manrope",
+      "Manrope",
+      "Manrope",
+      "Manrope"
+    ],
+    "links": true,
+    "errors": []
+  },
+  "reduced": {
+    "overflow": false,
+    "headline": "Know your risks.\nStrengthen your next move.",
+    "hero": {
+      "x": 0,
+      "y": 96,
+      "width": 1440,
+      "height": 864,
+      "top": 96,
+      "right": 1440,
+      "bottom": 960,
+      "left": 0
+    },
+    "panel": {
+      "x": 160,
+      "y": 615.4375,
+      "width": 1120,
+      "height": 333.1875,
+      "top": 615.4375,
+      "right": 1280,
+      "bottom": 948.625,
+      "left": 160
+    },
+    "videos": [
+      {
+        "ready": 0,
+        "paused": true,
+        "src": null,
+        "time": 0
+      },
+      {
+        "ready": 0,
+        "paused": true,
+        "src": null,
+        "time": 0
+      }
+    ],
+    "fonts": [
+      "DM Sans",
+      "DM Sans",
+      "DM Sans",
+      "DM Sans",
+      "Manrope",
+      "Manrope",
+      "Manrope",
+      "Manrope"
+    ],
+    "links": true,
+    "errors": []
+  }
+}

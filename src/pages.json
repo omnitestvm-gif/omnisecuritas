@@ -1,0 +1,31 @@
+{
+  "index": {
+    "title": "OmniSecuritas | Managed Cybersecurity. Human Expertise.",
+    "description": "Analyst-led managed detection and response, endpoint security, and professional cybersecurity services for Philippine businesses.",
+    "active": "home",
+    "globe": true,
+    "threatHunting": true
+  },
+  "solutions": {
+    "title": "Cybersecurity Solutions | OmniSecuritas",
+    "description": "Explore managed detection and response, endpoint security, threat hunting, awareness training, and professional services built around your business.",
+    "active": "solutions",
+    "solutionsHero": true
+  },
+  "mdr-approach": {
+    "title": "Managed Detection & Response Approach | OmniSecuritas",
+    "description": "Understand how OmniSecuritas connects endpoint monitoring, analyst investigation, coordinated response, and continuous improvement through MDR.",
+    "active": "mdr"
+  },
+  "professional-services": {
+    "title": "Professional Cybersecurity Services | OmniSecuritas",
+    "description": "Strengthen your security posture with risk assessments, security reviews, penetration testing, incident readiness, response, and forensic investigation services.",
+    "active": "services",
+    "servicesHero": true
+  },
+  "contact": {
+    "title": "Contact Us | OmniSecuritas",
+    "description": "Talk with OmniSecuritas about managed cybersecurity, MDR, endpoint protection, professional services, and security partnerships.",
+    "active": "contact"
+  }
+}

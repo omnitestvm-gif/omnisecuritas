@@ -1,0 +1,125 @@
+{
+  "desktop": {
+    "overflow": false,
+    "headline": "The right layers.\nA stronger business.",
+    "hero": {
+      "x": 0,
+      "y": 96,
+      "width": 1440,
+      "height": 748.875,
+      "top": 96,
+      "right": 1440,
+      "bottom": 844.875,
+      "left": 0
+    },
+    "video": {
+      "paused": false,
+      "ready": 4,
+      "time": 2.6742,
+      "src": "assets/media/solutions-layers.mp4"
+    },
+    "fonts": [
+      "DM Sans",
+      "DM Sans",
+      "DM Sans",
+      "DM Sans",
+      "Manrope",
+      "Manrope",
+      "Manrope",
+      "Manrope"
+    ],
+    "cta": {
+      "x": 86.390625,
+      "y": 559.625,
+      "width": 597.6875,
+      "height": 57,
+      "top": 559.625,
+      "right": 684.078125,
+      "bottom": 616.625,
+      "left": 86.390625
+    },
+    "errors": []
+  },
+  "mobile": {
+    "overflow": false,
+    "headline": "The right layers.\nA stronger business.",
+    "hero": {
+      "x": 0,
+      "y": -172,
+      "width": 390,
+      "height": 1212.171875,
+      "top": -172,
+      "right": 390,
+      "bottom": 1040.171875,
+      "left": 0
+    },
+    "video": {
+      "paused": false,
+      "ready": 4,
+      "time": 2.5563,
+      "src": "assets/media/solutions-layers.mp4"
+    },
+    "fonts": [
+      "DM Sans",
+      "DM Sans",
+      "DM Sans",
+      "DM Sans",
+      "Manrope",
+      "Manrope",
+      "Manrope",
+      "Manrope"
+    ],
+    "cta": {
+      "x": 22,
+      "y": 216.671875,
+      "width": 346,
+      "height": 117.5,
+      "top": 216.671875,
+      "right": 368,
+      "bottom": 334.171875,
+      "left": 22
+    },
+    "errors": []
+  },
+  "reduced": {
+    "overflow": false,
+    "headline": "The right layers.\nA stronger business.",
+    "hero": {
+      "x": 0,
+      "y": 96,
+      "width": 1440,
+      "height": 748.875,
+      "top": 96,
+      "right": 1440,
+      "bottom": 844.875,
+      "left": 0
+    },
+    "video": {
+      "paused": true,
+      "ready": 0,
+      "time": 0,
+      "src": null
+    },
+    "fonts": [
+      "DM Sans",
+      "DM Sans",
+      "DM Sans",
+      "DM Sans",
+      "Manrope",
+      "Manrope",
+      "Manrope",
+      "Manrope"
+    ],
+    "cta": {
+      "x": 86.390625,
+      "y": 559.625,
+      "width": 597.6875,
+      "height": 57,
+      "top": 559.625,
+      "right": 684.078125,
+      "bottom": 616.625,
+      "left": 86.390625
+    },
+    "errors": []
+  }
+}
